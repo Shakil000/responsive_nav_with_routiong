@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 const User = ({user}) => {
 
-    const {albumId, id, title, url, thumbnailUrl} = user;
+    const {albumId, id, title,} = user;
 
     return (
         <div className='border bg-slate-300 p-2 rounded-xl mb-3'>
